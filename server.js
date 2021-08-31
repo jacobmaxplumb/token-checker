@@ -6,7 +6,7 @@ const port = 8080
 const app = express();
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('demo/hello', (req, res) => {
     res.send({data: 'hello'});
 })
 
